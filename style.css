@@ -1,0 +1,22 @@
+.inter-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comfortaa-style {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.bg-img{
+    width: 100%;
+}
