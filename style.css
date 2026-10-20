@@ -157,6 +157,8 @@ z-index: 2;
   background-color: #792AFF;
   position: relative;
   display: flex;
+  width: 850px;
+  border-radius: 20px;
 }
 
 .about-title{
@@ -193,4 +195,41 @@ z-index: 2;
 
 .about-card img{
   margin-bottom: 20px;
+}
+
+.moving-cloud{
+  background: url(img/cloud.png);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 162px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+@keyframes moving-cloud{
+  from{transform: translateY(0px);}
+  to{transform: translateY(70px);}
+}
+
+.about-text{
+  margin: 20px;
+}
+
+
+.skills-card{
+  background-image: url(img/form3.png);
+  height: 450px;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.skills-card p{
+  color: #000;
+  font-size: 18px;
+  margin: 80px 0px 30px 0px;
+  
 }
