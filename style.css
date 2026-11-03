@@ -15,6 +15,7 @@
 *{
     margin: 0;
     font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -216,11 +217,10 @@ z-index: 2;
   margin: 20px;
 }
 
-
 .skills-card{
   background-image: url(img/form3.png);
-  height: 450px;
-  width: auto;
+  height: 408px;
+  width: 630px;
   flex-direction: column;
   justify-content: center;
   margin: 20px;
@@ -231,5 +231,144 @@ z-index: 2;
   color: #000;
   font-size: 18px;
   margin: 80px 0px 30px 0px;
-  
+  text-align: center;
+}
+
+.languages{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.my-works{
+  display: flex;
+  justify-content: center;
+}
+
+.works-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.works-block img{
+  width: 27%;
+  box-shadow: #000 7px 7px;
+}
+
+.comments-block{
+  justify-content: space-evenly;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.comments-card{
+  background-image: url(img/card.png);
+  height: 300px;
+  max-width: 200px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.comment-card h3{
+  font-family: "Comfortaa";
+  padding: 10px;
+  font-size: 18px;
+}
+
+.comment-card p{
+  font-family: "Comfortaa";
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.comment{
+  background-image: url(img/comment.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 327px;
+  height: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment p{
+  font-style: "Comfortaa";
+  font-size: 20px;
+  max-width: 250px;
+}
+
+footer{
+   background-color: #200153;
+   height: 110px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #FFF;
+}
+
+.footer-info p{
+   font-family: 'Comfortaa';
+   padding-bottom: 10px;
+}
+
+.footer-year p{
+   font-family: 'Comfortaa';
+   letter-spacing: 1.5px;
+}
+
+.footer-links a{
+   margin-right: 15px;
+}
+
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.fixed-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.nav-link{
+  width: 112px;
+  height: 40px;
+  border-radius: 12px;
+  border: 2px solid #000;
+  background-color: #FFF;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: -60px;
+}
+
+.logo{
+  color: #BBFF2C;
+  font-size: 80px;
+  padding-left: 50px;
+}
+
+.active{
+   background-color: #BBFF2C;
 }
