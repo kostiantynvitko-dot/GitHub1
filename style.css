@@ -198,6 +198,11 @@ z-index: 2;
   margin-bottom: 20px;
 }
 
+@keyframes moving-cloud{
+  from{transform: translateY(0px);}
+  to{transform: translateY(70px);}
+}
+
 .moving-cloud{
   background: url(img/cloud.png);
   background-repeat: no-repeat;
@@ -206,11 +211,7 @@ z-index: 2;
   position: absolute;
   bottom: 30px;
   left: 30px;
-}
-
-@keyframes moving-cloud{
-  from{transform: translateY(0px);}
-  to{transform: translateY(70px);}
+  animation: moving-cloud 2s infinite alternate;
 }
 
 .about-text{
