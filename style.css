@@ -430,6 +430,14 @@ a{
   height: 50px;
 }
 
+.off-scroll{
+  overflow: hidden;
+}
+
+.description{
+  margin: 5px 15px;
+}
+
 @media(max-width: 1000px){
   .nav-links{
     display: none;
@@ -448,7 +456,7 @@ a{
   .main-subtitle{
     font-size: 15px;
   }
-  .planet .moving-cloud .moving-planet .moving-planet2{
+  .planet, .moving-cloud, .moving-planet, .moving-planet2{
     display: none;
   }
   .title{
@@ -459,21 +467,25 @@ a{
     padding: 0;
     flex-direction: column;
     margin-top: 20px;
+    height: 500px;
   }
   .about-card{
     order: -1;
-    background-size: contain;
     padding-top: 20px;
     width: 326px;
-    height: 296px;
+    height: 496px;
   }
   .about-card img{
     width: 85%;
+    margin-top: -200px;
   }
   .about-content{
-    width: 75%;
-    height: 250px;
+    width: 85%;
+    height: 347px;
     margin-bottom: 20px;
+  }
+  .about-content b{
+    font-size: 14px;
   }
   .about-title{
     font-size: 18px;
@@ -482,6 +494,8 @@ a{
     margin: 20px;
     padding-left: 10px;
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 200px;
   }
   .skills-card p{
     font-size: 16px;
@@ -493,7 +507,7 @@ a{
   }
   .skills-card .button{
     position: absolute;
-    bottom: 100px;
+    bottom: 200px;
   }
   .works-block{
     flex-direction: column;
@@ -512,6 +526,7 @@ a{
   }
   .comment{
     background-image: url(/img/comment-mobile.png);
+    width: 370px;
   }
   .comment p{
     font-size: 15px;
@@ -526,6 +541,9 @@ a{
   }
   .mobile-button{
   display: block;
+  }
+  .main-title{
+    margin-top: 50px;
   }
 }
 
